@@ -12,8 +12,10 @@ function Home() {
   return (
     <div>
       <h1> Home page</h1>
-      <Link href='/blog'>Blog</Link>
-      <Link href='/product'>product</Link>
+
+      <h2>Home</h2>
+      <Link href="/blog">Blog</Link>
+      <Link href="/product">product</Link>
       <button onClick={handleClick}>Place Order</button>
     </div>
   );
